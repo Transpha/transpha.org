@@ -1,7 +1,7 @@
 <template>
 <!-- Navbar -->        
     <!-- <nav class="navbar navbar-expand-lg transparent navbar-inverse navbar-fixed-top fixed-top"> -->
-    <nav class="navbar navbar-expand-lg bg-transparent">
+    <nav class="navbar navbar-expand-lg transparent navbar-inverse">
         <!-- Container wrapper -->
         <div class="container">
             <!-- Navbar brand -->
@@ -50,7 +50,7 @@
                         <nuxt-link to="#products" class="font-medium">Products</nuxt-link>
                     </li>
                     <li class="nav-item mx-6 my-auto">
-                        <button class="btn btn-success btn-rounded px-8 py-2 text-capitalize"><nuxt-link to="#contactus" class="font-medium">Contact Us</nuxt-link></button>
+                        <button class="btn base-green btn-rounded px-8 py-2 text-capitalize"><nuxt-link to="#contactus" class="font-medium text-white">Contact Us</nuxt-link></button>
                     </li>
                     
                 </ul>
@@ -81,6 +81,11 @@
 </script>
 
 <style scoped>
+
+     .base-green {
+        background-color: #5CAE69;
+    }
+
     .navbar-brand-lg {
         width: 8%;
         height: 8%;
@@ -100,14 +105,15 @@
 
     .navbar.transparent.navbar-inverse .navbar-inner {
         background: rgba(0,0,0,0.4);
+        box-shadow: none;
     }
 
     .nuxt-link {
-        font-family: Montserrat;
+        font-family: 'Montserrat';
     }
 
     .nuxt-link-active {
-        color: green
+        color: #5CAE69;
     }
 
     img {
