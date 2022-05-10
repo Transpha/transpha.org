@@ -1,48 +1,17 @@
 <template>
     <!-- Footer -->
-    <footer class="text-center text-lg-start bg-transparent text-muted p-10">
+    <footer class="text-left md:text-center text-lg-start bg-transparent text-muted p-10">
 
         <!-- Section: Links  -->
         <section class="">
-            <div class="container text-center text-md-start mt-5 my-auto mx-auto">
+            <div class="container text-left md:text-center text-md-start mt-5 my-auto mx-auto">
             <!-- Grid row -->
             <div class="row mt-3">
                 <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-1">
+                <div class="col-md-2 col-lg-2 col-xl-1 sm:order-1">
                 </div>
-                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto my-auto">
-                    <!-- Content -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        <img src="@/static/images/transpha_logo.png" />
-                    </h6>
-                    <p class="mb-3">
-                        <a href="#!" class="text-reset">Terms of Service</a>
-                    </p>
-                    <p class="mb-3">
-                        <a href="#!" class="text-reset">Privacy Policy</a>
-                    </p>
-                    <p class="mb-3">
-                        <a href="https://twitter.com/transpha" class="text-reset"><i class="fab fa-twitter"></i></a>
-                    </p>
-                </div>
-                <!-- Grid column -->
 
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto my-auto mb-5">
-                    <!-- Links -->
-                    <h6 class="font-bold mb-5">
-                        Company
-                    </h6>
-                    <p class="mb-3">
-                        <a href="#!" class="text-reset">About Us</a>
-                    </p>
-                    <p class="mb-3">
-                        <a href="#!" class="text-reset">Sponsor Us</a>
-                    </p>
-                </div>
-                <!-- Grid column -->
-
-                <div class="col-md-5 col-lg-5 col-xl-6 mx-auto my-auto">
+                <div class="col-md-5 col-lg-5 col-xl-6 mx-auto my-auto sm:order-last">
                     <!-- Links -->
                     <h6 class="font-bold mb-4">
                         Stay Updated
@@ -89,6 +58,40 @@
                                 <!--Grid row-->
                             </form>
                         </section>
+                    </p>
+                </div>
+
+                <!-- Grid column -->
+
+                <hr class="sm:hidden h-3 my-5"/>
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto my-auto mb-5 sm:order-3">
+                    <!-- Links -->
+                    <h6 class="font-bold mb-5">
+                        Company
+                    </h6>
+                    <p class="mb-3">
+                        <a href="#!" class="text-reset">About Us</a>
+                    </p>
+                    <p class="mb-3">
+                        <a href="#!" class="text-reset">Sponsor Us</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+                <hr class="sm:hidden h-3 my-5"/>
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto my-auto sm:order-2">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <img src="@/static/images/transpha_logo.png" />
+                    </h6>
+                    <p class="mb-3">
+                        <a href="#!" class="text-reset">Terms of Service</a>
+                    </p>
+                    <p class="mb-3">
+                        <a href="#!" class="text-reset">Privacy Policy</a>
+                    </p>
+                    <p class="mb-3">
+                        <a href="https://twitter.com/transpha" class="text-reset"><i class="fab fa-twitter"></i></a>
                     </p>
                 </div>
             </div>

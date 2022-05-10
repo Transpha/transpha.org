@@ -1,7 +1,8 @@
 <template>
 <!-- Navbar -->        
     <!-- <nav class="navbar navbar-expand-lg transparent navbar-inverse navbar-fixed-top fixed-top"> -->
-    <nav class="navbar navbar-expand-lg transparent navbar-inverse">
+    <nav class="navbar navbar-expand-lg transparent navbar-inverse navbar-inner navbar-static-top" role="navigation">
+        
         <!-- Container wrapper -->
         <div class="container">
             <!-- Navbar brand -->
@@ -29,9 +30,9 @@
                 aria-controls="navbarButtonsExample" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <div class="animated-icon1">
-                    <span class="bg-dark animated-icon-span"></span>
-                    <span class="bg-dark animated-icon-span"></span>
-                    <span class="bg-dark animated-icon-span"></span>
+                    <span class="animated-icon-span" style="width: 120%;"></span>
+                    <span class="animated-icon-span" style="width: 110%;"></span>
+                    <span class="animated-icon-span"></span>
                 </div>
             </button>
 
@@ -44,13 +45,13 @@
                         <nuxt-link to="/" class="font-medium">Home</nuxt-link>
                     </li>
                     <li class="nav-item mx-6 my-auto">
-                        <nuxt-link to="#about" class="font-medium">About Us</nuxt-link>
+                        <nuxt-link to="#about-us" class="font-medium">About Us</nuxt-link>
                     </li>
                     <li class="nav-item mx-6 my-auto">
                         <nuxt-link to="#products" class="font-medium">Products</nuxt-link>
                     </li>
                     <li class="nav-item mx-6 my-auto">
-                        <button class="btn base-green btn-rounded px-8 py-2 text-capitalize"><nuxt-link to="#contactus" class="font-medium text-white">Contact Us</nuxt-link></button>
+                        <button class="btn base-green btn-rounded px-8 py-2 text-capitalize"><nuxt-link to="#contact-us" class="font-medium text-white">Contact Us</nuxt-link></button>
                     </li>
                     
                 </ul>
@@ -67,7 +68,7 @@
     export default {
         data() {
             return {
-                title: 'Welcome to BLAST!'
+                title: 'Welcome to Transpha!'
             }
         },
         mounted() {
@@ -84,6 +85,10 @@
 
      .base-green {
         background-color: #5CAE69;
+    }
+
+    .color-green {
+        color: #5CAE69;
     }
 
     .navbar-brand-lg {
@@ -104,7 +109,7 @@
     }
 
     .navbar.transparent.navbar-inverse .navbar-inner {
-        background: rgba(0,0,0,0.4);
+        /* background: rgba(0,0,0,0.4); */
         box-shadow: none;
     }
 
@@ -157,7 +162,7 @@
     }
 
     .animated-icon1 span {
-    background: #2d7ef7;
+    background: #181818;
     }
 
     .animated-icon1 span:nth-child(1) {
