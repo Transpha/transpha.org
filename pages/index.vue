@@ -20,10 +20,10 @@
                         </p>
                         <br />
                         <div class="mt-3">
-                            <p class="content-center sm:content-start col-10 sm:col-6 hidden md:visible">
+                            <p class="content-center sm:content-start col-10 sm:col-6 hidden md:block">
                                 <button class="btn bg-custom-green btn-rounded text-white px-8 py-3 text-capitalize text-sm">Check Out Products</button>
                             </p>
-                            <p class="content-center sm:content-start col-10 sm:col-6 visible md:hidden mx-auto mb-20 sm:mb-5">
+                            <p class="content-center sm:content-start col-10 sm:col-6 block md:hidden mx-auto mb-20 sm:mb-5">
                                 <button class="btn bg-custom-green btn-rounded text-white px-8 py-3 text-capitalize text-sm btn-block">Check Out Products</button>
                             </p>
                         </div>
@@ -162,8 +162,8 @@
                             </div>
                             <div class="col-md-2 order-second"></div>
                             <div class="col-md-5 my-auto sm:order-last pt-10">
-                                <p class="color-green text-5xl font-semibold blur hidden md:visible">COMING SOON</p>
-                                <h4 class="color-green text-3xl font-semibold blur md:hidden visible my-auto mx-auto">COMING SOON</h4>
+                                <p class="color-green text-5xl font-semibold blur hidden md:block">COMING SOON</p>
+                                <h4 class="color-green text-3xl font-semibold blur md:hidden block my-auto mx-auto">COMING SOON</h4>
                             </div>
                         </div>
                     </div>
@@ -182,8 +182,8 @@
                             </div>
                             <div class="col-md-2 md:order-2"></div>
                             <div class="col-md-5 my-auto md:order-1 pt-10">
-                                <p class="color-green text-5xl font-semibold blur hidden md:visible">COMING SOON</p>
-                                <h4 class="color-green text-3xl font-semibold blur md:hidden visible my-auto mx-auto">COMING SOON</h4>
+                                <p class="color-green text-5xl font-semibold blur hidden md:block">COMING SOON</p>
+                                <h4 class="color-green text-3xl font-semibold blur md:hidden block my-auto mx-auto">COMING SOON</h4>
                             </div>
                             
 

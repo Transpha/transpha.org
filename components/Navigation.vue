@@ -1,67 +1,86 @@
 <template>
 <!-- Navbar -->        
-    <!-- <nav class="navbar navbar-expand-lg transparent navbar-inverse navbar-fixed-top fixed-top"> -->
-    <nav class="navbar navbar-expand-lg transparent navbar-inverse navbar-inner navbar-static-top" role="navigation">
-        
-        <!-- Container wrapper -->
-        <div class="container">
-            <!-- Navbar brand -->
-            <a class="navbar-brand-lg ml-40 d-none d-md-block">
-            <img
-                src="@/static/images/transpha_logo.png"
-                height="2"
-                alt="MDB Logo"
-                loading="lazy"
-            />
-
-            </a>
-             <a class="navbar-brand navbar-brand-sm d-md-none">
-            <img
-                src="@/static/images/transpha_logo.png"
-                height="5"
-                alt="MDB Logo"
-                loading="lazy"
-                style="margin-top: -1px;"
-            />
-            </a>
+        <!-- <nav class="navbar navbar-expand-lg transparent navbar-inverse navbar-fixed-top fixed-top"> -->
+    <div>    
+        <nav id="nav-top" class="navbar navbar-expand-lg bg-light navbar-static-top" role="navigation">
             
-            <button class="navbar-toggler first-button" type="button" data-mdb-toggle="collapse"
-                data-mdb-target="#navbarButtonsExample"
-                aria-controls="navbarButtonsExample" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <div class="animated-icon1">
-                    <span class="animated-icon-span" style="width: 120%;"></span>
-                    <span class="animated-icon-span" style="width: 110%;"></span>
-                    <span class="animated-icon-span"></span>
+            <!-- Container wrapper -->
+            <div class="container">
+                <!-- Navbar brand -->
+                <a class="navbar-brand-lg ml-40 d-none d-md-block">
+                <img
+                    src="@/static/images/transpha_logo.png"
+                    height="2"
+                    alt="MDB Logo"
+                    loading="lazy"
+                />
+
+                </a>
+                <a class="navbar-brand navbar-brand-sm d-md-none">
+                <img
+                    src="@/static/images/transpha_logo.png"
+                    height="5"
+                    alt="MDB Logo"
+                    loading="lazy"
+                    style="margin-top: -1px;"
+                />
+                </a>
+                
+                <button class="navbar-toggler first-button" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarButtonsExample"
+                    aria-controls="navbarButtonsExample" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <div class="animated-icon1">
+                        <span class="animated-icon-span" style="width: 120%;"></span>
+                        <span class="animated-icon-span" style="width: 110%;"></span>
+                        <span class="animated-icon-span"></span>
+                    </div>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div id=""
+                    class="collapse navbar-collapse justify-content-center ml-60">
+                    <!-- Left links -->
+                    <ul class="navbar-nav mb-lg-0">
+                        <li class="nav-item mx-6 my-auto">
+                            <nuxt-link to="/" class="font-medium">Home</nuxt-link>
+                        </li>
+                        <li class="nav-item mx-6 my-auto">
+                            <nuxt-link to="#about-us" class="font-medium">About Us</nuxt-link>
+                        </li>
+                        <li class="nav-item mx-6 my-auto">
+                            <nuxt-link to="#products" class="font-medium">Products</nuxt-link>
+                        </li>
+                        <li class="nav-item mx-6 my-auto">
+                            <button class="btn base-green btn-rounded px-8 py-2 text-capitalize"><nuxt-link to="#contact-us" class="font-medium text-white">Contact Us</nuxt-link></button>
+                        </li>
+                        
+                    </ul>
                 </div>
-            </button>
 
-            <!-- Collapsible wrapper -->
-            <div id="navbarButtonsExample"
-                class="collapse navbar-collapse justify-content-center ml-60">
-                <!-- Left links -->
-                <ul class="navbar-nav mb-lg-0">
-                    <li class="nav-item mx-6 my-auto">
-                        <nuxt-link to="/" class="font-medium">Home</nuxt-link>
-                    </li>
-                    <li class="nav-item mx-6 my-auto">
-                        <nuxt-link to="#about-us" class="font-medium">About Us</nuxt-link>
-                    </li>
-                    <li class="nav-item mx-6 my-auto">
-                        <nuxt-link to="#products" class="font-medium">Products</nuxt-link>
-                    </li>
-                    <li class="nav-item mx-6 my-auto">
-                        <button class="btn base-green btn-rounded px-8 py-2 text-capitalize"><nuxt-link to="#contact-us" class="font-medium text-white">Contact Us</nuxt-link></button>
-                    </li>
-                    
-                </ul>
+                <!-- Collapsible wrapper -->
             </div>
+            <!-- Container wrapper -->
 
-            <!-- Collapsible wrapper -->
+        </nav>
+
+        <div id="menu" class="invisible content-center my-auto mx-auto align-middle text-center mt-60">
+            <p class="mt-10">
+                <a href="/" class="menu-item font-medium">Home</a>
+            </p>
+            <p class="mt-10">
+                <a href="#about-us" class="menu-item font-medium">About Us</a>
+            </p>
+            <p class="mt-10">
+                <a href="#products" class="menu-item font-medium">Products</a>
+            </p>
+            <p class="mt-10">
+                <button class="btn base-green btn-rounded px-8 py-2 text-capitalize"><a href="#contact-us" class="menu-item font-medium text-white">Contact Us</a></button>
+            </p>
         </div>
-        <!-- Container wrapper -->
-    </nav>
-    <!-- Navbar -->
+
+    </div>
+        <!-- Navbar -->
 </template>
 
 <script>
@@ -75,6 +94,17 @@
             document.querySelector('.first-button').addEventListener('click', function () {
 
             document.querySelector('.animated-icon1').classList.toggle('open');
+            });
+
+            document.querySelector('.first-button').addEventListener('click', function () {
+                document.querySelector('#menu').classList.toggle('invisible');
+                document.querySelector('#nav-top').classList.toggle('fixed-top');
+            });
+
+            document.getElementsByClassName('.menu-item').addEventListener('click', function(){
+                document.querySelector('#menu').classList.toggle('invisible');
+                document.querySelector('#nav-top').classList.toggle('fixed-top');
+                window.location.reload();
             });
         }
     }
@@ -108,10 +138,10 @@
     /* display: block; */
     }
 
-    .navbar.transparent.navbar-inverse .navbar-inner {
+    /* .navbar.transparent.navbar-inverse .navbar-inner { */
         /* background: rgba(0,0,0,0.4); */
-        box-shadow: none;
-    }
+        /* box-shadow: none; */
+    /* } */
 
     .nuxt-link {
         font-family: 'Montserrat';
@@ -196,6 +226,17 @@
     -moz-transform: rotate(-135deg);
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
+    }
+
+    #menu {
+        min-height: 100%;
+        min-width: 100%;
+        background: white;
+        z-index: 1000;
+        position: fixed;
+        align-content: center;
+        /* top: 0%;
+        left: 0%; */
     }
 
 </style>
