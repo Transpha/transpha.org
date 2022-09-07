@@ -10,22 +10,24 @@
                         <p class="text-6xl sm:text-8xl font-bold gb">Be <span class="color-green text-decoration-none"> seamless.</span></p>
                         <br />
                         <p class="mt-3 text-lg sm:text-xl font-light">
-                            Transpha is an organization dedicated to providing 
+                            Transpha is an organization dedicated to 
                         </p>
                         <p class="mt-1 text-lg sm:text-xl  font-light">
-                            solutions for making interactions between devices 
+                            providing solutions for making interactions 
                         </p>
                             <p class="mt-1 text-lg sm:text-xl font-light">
-                            smooth and uninterrupted.
+                            between devices smooth and uninterrupted.
                         </p>
                         <br />
                         <div class="mt-3">
-                            <p class="content-center sm:content-start col-10 sm:col-6 hidden md:block">
-                                <button class="btn bg-custom-green btn-rounded text-white px-8 py-3 text-capitalize text-sm">Check Out Products</button>
-                            </p>
-                            <p class="content-center sm:content-start col-10 sm:col-6 block md:hidden mx-auto mb-20 sm:mb-5">
-                                <button class="btn bg-custom-green btn-rounded text-white px-8 py-3 text-capitalize text-sm btn-block">Check Out Products</button>
-                            </p>
+                            <a href="#products">
+                                <p class="content-center sm:content-start col-10 sm:col-6 hidden md:block">
+                                    <button class="btn bg-custom-green btn-rounded text-white px-8 py-3 text-capitalize text-sm">Check out our Products</button>
+                                </p>
+                                <p class="content-center sm:content-start col-10 sm:col-6 block md:hidden mx-auto mb-20 sm:mb-5">
+                                    <button class="btn bg-custom-green btn-rounded text-white px-8 py-3 text-capitalize text-sm btn-block">Check out our Products</button>
+                                </p>
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-1 col-xl-1">

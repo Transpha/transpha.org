@@ -3,22 +3,21 @@
         <!-- <nav class="navbar navbar-expand-lg transparent navbar-inverse navbar-fixed-top fixed-top"> -->
     <div>    
         <nav id="nav-top" class="navbar navbar-expand-lg bg-light navbar-static-top" role="navigation">
-            
             <!-- Container wrapper -->
             <div class="container">
                 <!-- Navbar brand -->
-                <a class="navbar-brand-lg ml-40 d-none d-md-block">
+                <a class="navbar-brand-lg ml-40 d-none d-md-block" href="/">
                 <img
-                    src="@/static/images/transpha_logo.png"
+                    src="@/static/images/transpha.png"
                     height="2"
                     alt="MDB Logo"
                     loading="lazy"
                 />
 
                 </a>
-                <a class="navbar-brand navbar-brand-sm d-md-none">
+                <a class="navbar-brand navbar-brand-sm d-md-none" href="/">
                 <img
-                    src="@/static/images/transpha_logo.png"
+                    src="@/static/images/transpha.png"
                     height="5"
                     alt="MDB Logo"
                     loading="lazy"
@@ -43,16 +42,16 @@
                     <!-- Left links -->
                     <ul class="navbar-nav mb-lg-0">
                         <li class="nav-item mx-6 my-auto">
-                            <nuxt-link to="/" class="font-medium">Home</nuxt-link>
+                            <a href="/" class="font-medium lg-link active">Home</a>
                         </li>
                         <li class="nav-item mx-6 my-auto">
-                            <nuxt-link to="#about-us" class="font-medium">About Us</nuxt-link>
+                            <a href="#about-us" class="font-medium lg-link">About Us</a>
                         </li>
                         <li class="nav-item mx-6 my-auto">
-                            <nuxt-link to="#products" class="font-medium">Products</nuxt-link>
+                            <a href="#products" class="font-medium lg-link">Products</a>
                         </li>
                         <li class="nav-item mx-6 my-auto">
-                            <button class="btn base-green btn-rounded px-8 py-2 text-capitalize"><nuxt-link to="#contact-us" class="font-medium text-white">Contact Us</nuxt-link></button>
+                            <a href="#contact-us" class="font-medium text-white"><button class="btn base-green btn-rounded px-8 py-2 text-capitalize text-white">Contact Us</button></a>
                         </li>
                         
                     </ul>
@@ -106,6 +105,8 @@
                 document.querySelector('#nav-top').classList.toggle('fixed-top');
                 window.location.reload();
             });
+
+            // document.getElementsByClassName('.lg-link').classList.toggle('active');
         }
     }
 
@@ -127,7 +128,7 @@
         position: relative;
         /* left: 50%;
         margin-left: -100px !important;   50% of your logo width */
-        pointer-events: none;
+        /* pointer-events: none; */
     /* display: block; */
     }
 
@@ -143,11 +144,11 @@
         /* box-shadow: none; */
     /* } */
 
-    .nuxt-link {
+    .lg-link {
         font-family: 'Montserrat';
     }
 
-    .nuxt-link-active {
+    .lg-link.active {
         color: #5CAE69;
     }
 
