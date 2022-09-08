@@ -36,20 +36,24 @@
 
                                 <!--Grid column-->
                                 <div class="row d-flex my-auto mb-4">
+
                                     <div class="col-md-5 col-12">
                                         <!-- Email input -->
                                         <div class="form-outline form-white">
-                                        <input id="form5Example21" type="email"  class="form-control bg-success opacity-10 h-12 border-dark border-2" />
-                                        <label class="form-label text-success opacity-20 text-center" for="form5Example21">Enter email address</label>
+                                            <input id="form5Example21" type="email"  class="form-control base-green opacity-20 h-12 border-dark rounded-xl text-dark font-bold" />
+                                            <label class="form-label text-success opacity-25 ml-1 mt-1 text-center my-auto font-semibold" for="form5Example21">Enter email address</label>
                                         </div>
+
                                     </div>
                                     <!--Grid column-->
 
                                     <!--Grid column-->
                                     <div class="col-auto">
                                         <!-- Submit button -->
-                                        <button type="submit" class="btn base-green btn-rounded bg-opacity-25 text-capitalize text-white py-2 px-8">
-                                        Subscribe
+                                        <button 
+                                        type="submit" 
+                                        class="btn btn-lg base-green btn-rounded bg-opacity-25 text-capitalize text-white py-2 px-5 font-semibold rounded-lg">
+                                            Subscribe
                                         </button>
                                     </div>
                                 </div>
@@ -82,7 +86,7 @@
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto my-auto sm:order-2">
                     <!-- Content -->
                     <h6 class="text-uppercase fw-bold mb-4">
-                        <img src="@/static/images/transpha_logo.png" />
+                        <img src="@/static/images/transpha.png" />
                     </h6>
                     <p class="mb-3">
                         <a href="#!" class="text-reset">Terms of Service</a>
@@ -116,8 +120,8 @@ export default {
  }
 
  img {
-     width: 20%;
-     height: 20%;
+     width: 30%;
+     height: 30%;
  }
 
 </style>

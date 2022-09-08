@@ -6,7 +6,7 @@
             <!-- Container wrapper -->
             <div class="container">
                 <!-- Navbar brand -->
-                <a class="navbar-brand-lg ml-40 d-none d-md-block" href="/">
+                <a class="navbar-brand-lg ml-10 mr-30 d-none d-md-block" href="/">
                 <img
                     src="@/static/images/transpha.png"
                     height="2"
@@ -42,13 +42,16 @@
                     <!-- Left links -->
                     <ul class="navbar-nav mb-lg-0">
                         <li class="nav-item mx-6 my-auto">
-                            <a href="/" class="font-medium lg-link active">Home</a>
+                            <nuxt-link to="/" class="font-medium">Home</nuxt-link>
+                            <!-- <a href="/" class="font-medium lg-link active">Home</a> -->
+                        </li>                        
+                        <li class="nav-item mx-6 my-auto">
+                            <nuxt-link to="#about-us" class="font-medium">About Us</nuxt-link>
+                            <!-- <a href="#about-us" class="font-medium lg-link">About Us</a> -->
                         </li>
                         <li class="nav-item mx-6 my-auto">
-                            <a href="#about-us" class="font-medium lg-link">About Us</a>
-                        </li>
-                        <li class="nav-item mx-6 my-auto">
-                            <a href="#products" class="font-medium lg-link">Products</a>
+                            <nuxt-link to="#products" class="font-medium">Products</nuxt-link>
+                            <!-- <a href="#products" class="font-medium lg-link">Products</a> -->
                         </li>
                         <li class="nav-item mx-6 my-auto">
                             <a href="#contact-us" class="font-medium text-white"><button class="btn base-green btn-rounded px-8 py-2 text-capitalize text-white">Contact Us</button></a>
@@ -65,13 +68,16 @@
 
         <div id="menu" class="invisible content-center my-auto mx-auto align-middle text-center mt-60">
             <p class="mt-10">
-                <a href="/" class="menu-item font-medium">Home</a>
+                <nuxt-link to="/" class="menu-item font-medium">Home</nuxt-link>
+                <!-- <a href="/" class="menu-item font-medium">Home</a> -->
             </p>
             <p class="mt-10">
-                <a href="#about-us" class="menu-item font-medium">About Us</a>
+                <nuxt-link to="#about-us" class="menu-item font-medium">About Us</nuxt-link>
+                <!-- <a href="#about-us" class="menu-item font-medium">About Us</a> -->
             </p>
             <p class="mt-10">
-                <a href="#products" class="menu-item font-medium">Products</a>
+                <nuxt-link to="#products" class="menu-item font-medium">Products</nuxt-link>
+                <!-- <a href="#products" class="menu-item font-medium">Products</a> -->
             </p>
             <p class="mt-10">
                 <button class="btn base-green btn-rounded px-8 py-2 text-capitalize"><a href="#contact-us" class="menu-item font-medium text-white">Contact Us</a></button>
@@ -89,6 +95,7 @@
                 title: 'Welcome to Transpha!'
             }
         },
+        
         mounted() {
             document.querySelector('.first-button').addEventListener('click', function () {
 
@@ -100,13 +107,12 @@
                 document.querySelector('#nav-top').classList.toggle('fixed-top');
             });
 
-            document.getElementsByClassName('.menu-item').addEventListener('click', function(){
-                document.querySelector('#menu').classList.toggle('invisible');
+            document.querySelector('.menu-item').addEventListener('click', function(){
+                const menu = document.getElementsByClassName('.menu-item');
+                menu.classList.toggle('invisible');
                 document.querySelector('#nav-top').classList.toggle('fixed-top');
                 window.location.reload();
             });
-
-            // document.getElementsByClassName('.lg-link').classList.toggle('active');
         }
     }
 
@@ -144,11 +150,15 @@
         /* box-shadow: none; */
     /* } */
 
-    .lg-link {
+    .nuxt-link {
         font-family: 'Montserrat';
     }
 
-    .lg-link.active {
+    .nuxt-link:hover {
+        color: #5CAE69;
+    }
+
+    .nuxt-link-active {
         color: #5CAE69;
     }
 
@@ -159,74 +169,74 @@
     /* Icon 1 */
 
     .animated-icon1 {
-    width: 30px;
-    height: 20px;
-    position: relative;
-    margin: 0px;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-    cursor: pointer;
+        width: 30px;
+        height: 20px;
+        position: relative;
+        margin: 0px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
     }
 
     .animated-icon1 span {
-    display: block;
-    position: absolute;
-    height: 3px;
-    width: 100%;
-    border-radius: 9px;
-    opacity: 1;
-    left: 0;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
     }
 
     .animated-icon1 span {
-    background: #181818;
+        background: #181818;
     }
 
     .animated-icon1 span:nth-child(1) {
-    top: 0px;
+        top: 0px;
     }
 
     .animated-icon1 span:nth-child(2) {
-    top: 10px;
+        top: 10px;
     }
 
     .animated-icon1 span:nth-child(3) {
-    top: 20px;
+        top: 20px;
     }
 
     .animated-icon1.open span:nth-child(1) {
-    top: 11px;
-    -webkit-transform: rotate(135deg);
-    -moz-transform: rotate(135deg);
-    -o-transform: rotate(135deg);
-    transform: rotate(135deg);
+        top: 11px;
+        -webkit-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
     }
 
     .animated-icon1.open span:nth-child(2) {
-    opacity: 0;
-    left: -60px;
+        opacity: 0;
+        left: -60px;
     }
 
     .animated-icon1.open span:nth-child(3) {
-    top: 11px;
-    -webkit-transform: rotate(-135deg);
-    -moz-transform: rotate(-135deg);
-    -o-transform: rotate(-135deg);
-    transform: rotate(-135deg);
+        top: 11px;
+        -webkit-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
     }
 
     #menu {
