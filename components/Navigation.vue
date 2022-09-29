@@ -67,20 +67,20 @@
         </nav>
 
         <div id="menu" class="invisible content-center my-auto mx-auto align-middle text-center mt-60">
-            <p class="mt-10">
-                <nuxt-link to="/" class="menu-item font-medium">Home</nuxt-link>
+            <p class="mt-10 menu-item-1">
+                <nuxt-link to="/" class="font-medium text-dark">Home</nuxt-link>
                 <!-- <a href="/" class="menu-item font-medium">Home</a> -->
             </p>
-            <p class="mt-10">
-                <nuxt-link to="#about-us" class="menu-item font-medium">About Us</nuxt-link>
+            <p class="mt-10 menu-item-2">
+                <nuxt-link to="#about-us" class="font-medium text-dark">About Us</nuxt-link>
                 <!-- <a href="#about-us" class="menu-item font-medium">About Us</a> -->
             </p>
-            <p class="mt-10">
-                <nuxt-link to="#products" class="menu-item font-medium">Products</nuxt-link>
+            <p class="mt-10 menu-item-3">
+                <nuxt-link to="#products" class="font-medium text-dark">Products</nuxt-link>
                 <!-- <a href="#products" class="menu-item font-medium">Products</a> -->
             </p>
-            <p class="mt-10">
-                <button class="btn base-green btn-rounded px-8 py-2 text-capitalize"><a href="#contact-us" class="menu-item font-medium text-white">Contact Us</a></button>
+            <p class="mt-10 menu-item-4">
+                <button class="btn base-green btn-rounded px-8 py-2 text-capitalize"><a href="#contact-us" class="font-medium text-white">Contact Us</a></button>
             </p>
         </div>
 
@@ -98,21 +98,36 @@
         
         mounted() {
             document.querySelector('.first-button').addEventListener('click', function () {
-
-            document.querySelector('.animated-icon1').classList.toggle('open');
+                document.querySelector('.animated-icon1').classList.toggle('open');
             });
 
             document.querySelector('.first-button').addEventListener('click', function () {
                 document.querySelector('#menu').classList.toggle('invisible');
                 document.querySelector('#nav-top').classList.toggle('fixed-top');
             });
-
-            document.querySelector('.menu-item').addEventListener('click', function(){
-                const menu = document.getElementsByClassName('.menu-item');
-                menu.classList.toggle('invisible');
+            
+            // handles all links in mobile menu manually.
+            document.querySelector('.menu-item-1').addEventListener('click', function(){
+                document.querySelector('.animated-icon1').classList.toggle('open');
+                document.querySelector('#menu').classList.toggle('invisible');
                 document.querySelector('#nav-top').classList.toggle('fixed-top');
-                window.location.reload();
             });
+            document.querySelector('.menu-item-2').addEventListener('click', function(){
+                document.querySelector('.animated-icon1').classList.toggle('open');
+                document.querySelector('#menu').classList.toggle('invisible');
+                document.querySelector('#nav-top').classList.toggle('fixed-top');
+            });
+            document.querySelector('.menu-item-3').addEventListener('click', function(){
+                document.querySelector('.animated-icon1').classList.toggle('open');
+                document.querySelector('#menu').classList.toggle('invisible');
+                document.querySelector('#nav-top').classList.toggle('fixed-top');
+            });
+            document.querySelector('.menu-item-4').addEventListener('click', function(){
+                document.querySelector('.animated-icon1').classList.toggle('open');
+                document.querySelector('#menu').classList.toggle('invisible');
+                document.querySelector('#nav-top').classList.toggle('fixed-top');
+            });
+            
         }
     }
 
