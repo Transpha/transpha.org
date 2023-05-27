@@ -2,7 +2,7 @@
   <div>
     <h1>Privacy Policy for TKeys App</h1>
 
-    <p>Effective Date: 26-05-2023</p>
+    <p>Effective Date: 27-05-2023</p>
 
     <p>We at TKeys are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and disclose information when you use our app, TKeys, which allows you to control your laptop's keyboard and mouse through Wi-Fi. By using the TKeys app, you consent to the practices described in this Privacy Policy.</p>
 
@@ -15,8 +15,7 @@
     <p>We may collect certain non-personal information about your usage of the TKeys app, including:</p>
 
     <ul>
-        <li>Device information: We may collect information about your device, such as the device model, operating system version, and unique device identifiers. This information helps us optimize and improve the performance of the app.</li>
-        <li>Log data: Our servers automatically collect certain information when you use the TKeys app. This information may include your IP address, app usage logs, and error reports. We use this data to analyze trends, administer the app, and track user movements to improve the user experience and troubleshoot any issues that may arise.</li>
+        <li>Device information: (Usually in cases of bugs or specific device issues or features)  We may collect information about your device, such as the device model, operating system version, and unique device identifiers. This information helps us optimize and improve the performance of the app.</li>
     </ul>
 
     <h2>2. Use of Information</h2>
@@ -38,11 +37,11 @@
     <p>Since we do not collect any personal information, we do not share your personal information with any third parties.</p>
 
     <h3>3.2 Usage Information:</h3>
-    <p>We may share aggregated and anonymized usage information with third parties for analytical and statistical purposes. This information does not personally identify you and is used solely to improve our services.</p>
+    <p>We do not share aggregated and anonymized usage information with third parties for analytical and statistical purposes. This information does not personally identify you and is used solely to improve our services.</p>
 
     <h2>4. Data Security</h2>
 
-    <p>We are committed to protecting the security of your information. We implement appropriate technical and organizational measures to safeguard your data from unauthorized access, disclosure, alteration, or destruction. However, please note that no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
+    <p>We are committed to protecting the security of your information (if collected, at any point in time, in which you are fully notified and aware). We implement appropriate technical and organizational measures to safeguard your data from unauthorized access, disclosure, alteration, or destruction. However, please note that no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
 
     <h2>5. Changes to this Privacy Policy</h2>
 
