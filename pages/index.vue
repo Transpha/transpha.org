@@ -79,16 +79,16 @@
                             WHO WE ARE
                         </p>
                         <br />
-                        <p class="text-center gb text-2xl sm:text-3xl">Keeping our <span class="color-green"> story </span>catchy</p>
+                        <p class="text-center gb text-2xl sm:text-3xl">Seamlessly <span class="color-green"> Connecting </span> Your <span class="color-green"> Digital </span>World</p>
                         <br />
                         <p class="text-lg sm:text-xl font-light text-center mx-3 sm:mx-96">
-                            The social app for influencers. Be certain that your favorite influencers will 
-                            see your messages and respond to you. All for a small fee. The social app for 
-                            influencers. Be certain that your favorite influencers will see your messages 
-                            and respond to you. All for a small fee.The social app for influencers. Be certain 
-                            that your favorite influencers will see your messages and respond to you. 
-                            All for a small fee.The social app for influencers. Be certain that your favorite 
-                            influencers will see your messages and respond to you. All for a small fee..
+                            Transpha is a cutting-edge organization driven by a relentless passion 
+                            for transforming the way data flows across devices. With a team of 
+                            visionary professionals and experts in various fields, we strive to 
+                            create seamless experiences that transcend the limitations of 
+                            traditional data transfer. Our mission is to bridge the gaps between 
+                            devices, enabling users to effortlessly access and share information 
+                            across devices.
                         </p>
                     </div>
                     <div class="col-md-3"></div>
@@ -110,7 +110,7 @@
                             <div class="col">
                                 <i class="fas fa-search  color-green fa-2x m-2"></i>
                                 <p class="font-medium">Transfer</p>
-                                <p class="font-light text-break">Transfer files and folders at high speed between Pcs</p>
+                                <p class="font-light text-break">Transfer files and folders at high speed between PCs.</p>
                             </div>
                             <div class="col">
                                 <i class="fas fa-dollar-sign color-green fa-2x m-2"></i>
@@ -136,14 +136,12 @@
                              <div class="col-md-5 my-auto mx-auto md:order-3">
                                 <p class="font-semibold text-4xl gb">T-Keys</p>
                                 <p class="text-break font-light tracking-wide mt-5">
-                                    The social app for influencers. Be certain that 
-                                    your favorite influencers will see your 
-                                    messages and respond to you. All for a small 
-                                    fee.
+                                    TKeys is a revolutionary app designed to simplify 
+                                    the way you control your laptop's keyboard and mouse.
                                 </p>
                                 <p class="mt-5"><a href="/products/tkeys">
                                         <button class="btn bg-custom-green btn-rounded text-white px-8 py-3 text-capitalize text-sm">
-                                            Learn more
+                                            Download Now
                                         </button>
                                 </a></p>
                             </div>
@@ -159,10 +157,7 @@
                             <div class="col-md-5 my-auto mx-auto">
                                 <p class="font-semibold text-4xl gb">T-Files</p>
                                 <p class="text-break font-light tracking-wide mt-5">
-                                    The social app for influencers. Be certain that 
-                                    your favorite influencers will see your 
-                                    messages and respond to you. All for a small 
-                                    fee.
+                                    Transfer files across different Operating Systems with ease.
                                 </p>
                                 <p class="mt-5"><button class="btn bg-custom-green btn-rounded text-white px-8 py-3 text-capitalize text-sm">Learn more</button></p>
                             </div>
@@ -174,7 +169,7 @@
                         </div>
                     </div>
 
-                     <div id="product3">
+                     <!-- <div id="product3">
                         <div class="row">
                             <div class="col-md-5 my-auto mx-auto md:order-3">
                                 <p class="font-semibold text-4xl gb">T-Keys</p>
@@ -194,7 +189,7 @@
                             
 
                         </div>
-                    </div>
+                    </div> -->
 
                 </div>
             </div>

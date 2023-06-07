@@ -75,10 +75,10 @@
                         Company
                     </h6>
                     <p class="mb-3">
-                        <a href="#!" class="text-reset">About Us</a>
+                        <a href="#!" class="text-reset">Meet the Team</a>
                     </p>
                     <p class="mb-3">
-                        <a href="#!" class="text-reset">Sponsor Us</a>
+                        <a href="#!" class="text-reset">Donate</a>
                     </p>
                 </div>
                 <!-- Grid column -->
