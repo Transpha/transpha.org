@@ -8,6 +8,12 @@
                 <h1 class="font-black text-5xl underline tracking-widest">T-Keys</h1>
                 <br />
                 <p class="m-20 font-medium text-lg tracking-wide">
+                    TKeys is a versatile app that allows users to simulate their laptop's keyboard, 
+                    keyboard presses, and mouse movements wirelessly through a Wi-Fi connection. 
+                    With TKeys, you can transform your mobile device into a remote control for your 
+                    laptop, enabling you to conveniently operate it from a distance.
+                    <br />
+                    <br />
                     Get the TKeys app for seamless control of your laptop's keyboard 
                     and mouse. Download both the desktop and mobile apps to get started!
                 </p>
@@ -23,6 +29,7 @@
                 <div class="row row-cols-md-1 row-cols-md-3 md:mx-20 mt-16">
                     <div class="col-md-5 col-xl-5 mx-auto my-auto mb-10 sm:mb-20">
                         <div class="">
+                            <br />
                             <p class="text-base tracking-widest font-semibold">Download the TKeys mobile app</p>
                             <img class="mx-auto" src="@/static/images/tkeys_mobile.png" />
                             <div class="row row-cols-sm-1 row-cols-sm-2 mt-20 mb-20">
@@ -44,8 +51,11 @@
                     </div>
                     <div class="col-md-5 col-xl-5 mx-auto my-auto mb-10 sm:mb-20">
                         <div class="">
+                            <br />
+                            <br />
                             <p class="text-base tracking-widest font-semibold">Download the TKeys desktop app</p>
                             <img class="mx-auto" src="@/static/images/tkeys_desktop.png" />
+
                             <div class="row row-cols-sm-1 row-cols-sm-3 mt-20 mb-20">
                                 <div class="row">
                                     <a href="https://transpha.org/downloads/windows/tkeyswindows-v1.exe"><i class="fab fa-windows fa-3x"></i></a>
