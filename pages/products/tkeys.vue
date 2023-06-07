@@ -7,7 +7,7 @@
             <div class="mx-10 my-auto mb-30 text-center">
                 <h1 class="font-black text-5xl underline tracking-widest">T-Keys</h1>
                 <br />
-                <p class="m-20 font-medium text-lg tracking-wide">
+                <p class="my-10 mx-5 font-medium text-lg tracking-wide">
                     TKeys is a versatile app that allows users to simulate their laptop's keyboard, 
                     keyboard presses, and mouse movements wirelessly through a Wi-Fi connection. 
                     With TKeys, you can transform your mobile device into a remote control for your 
