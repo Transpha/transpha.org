@@ -46,7 +46,7 @@
                             <!-- <a href="/" class="font-medium lg-link active">Home</a> -->
                         </li>                        
                         <li class="nav-item mx-6 my-auto">
-                            <nuxt-link to="#about-us" class="font-medium">About Us</nuxt-link>
+                            <nuxt-link to="/#about-us" class="font-medium">About Us</nuxt-link>
                             <!-- <a href="#about-us" class="font-medium lg-link">About Us</a> -->
                         </li>
                         <li class="nav-item mx-6 my-auto">

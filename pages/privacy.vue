@@ -1,18 +1,18 @@
 <template>
-  <div>
-    <h1>Privacy Policy for TKeys App</h1>
+  <div class="m-10">
+    <h1>Privacy Policy for Transpha</h1>
 
     <p>Effective Date: 27-05-2023</p>
 
-    <p>We at TKeys are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and disclose information when you use our app, TKeys, which allows you to control your laptop's keyboard and mouse through Wi-Fi. By using the TKeys app, you consent to the practices described in this Privacy Policy.</p>
+    <p>We at Transpha are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and disclose information when you use our app e.g TKeys, which allows you to control your laptop's keyboard and mouse through Wi-Fi. By using our app, you consent to the practices described in this Privacy Policy.</p>
 
     <h2>1. Information We Collect</h2>
 
     <h3>1.1 Personal Information:</h3>
-    <p>We do not collect any personal information, such as your name, address, or contact details when you use the TKeys app. We designed our app to ensure your privacy and protect your personal information.</p>
+    <p>We do not collect any personal information, such as your name, address, or contact details when you use our app. We designed our apps to ensure your privacy and protect your personal information.</p>
 
     <h3>1.2 Usage Information:</h3>
-    <p>We may collect certain non-personal information about your usage of the TKeys app, including:</p>
+    <p>We may collect certain non-personal information about your usage of our app e.g the TKeys app, including:</p>
 
     <ul>
         <li>Device information: (Usually in cases of bugs or specific device issues or features)  We may collect information about your device, such as the device model, operating system version, and unique device identifiers. This information helps us optimize and improve the performance of the app.</li>
@@ -21,13 +21,13 @@
     <h2>2. Use of Information</h2>
 
     <h3>2.1 Personal Information:</h3>
-    <p>As mentioned earlier, we do not collect any personal information through the TKeys app. Therefore, we do not use your personal information for any purpose.</p>
+    <p>As mentioned earlier, we do not collect any personal information through our app. Therefore, we do not use your personal information for any purpose.</p>
 
     <h3>2.2 Usage Information:</h3>
     <p>We use the usage information we collect to:</p>
 
     <ul>
-        <li>Improve the TKeys app: The data collected helps us understand how users interact with the app, identify areas for improvement, and enhance the overall functionality and user experience.</li>
+        <li>Improve our app(s): The data collected helps us understand how users interact with the app, identify areas for improvement, and enhance the overall functionality and user experience.</li>
         <li>Analytics: We may use aggregated and anonymized usage information for analytical purposes, such as analyzing app usage patterns and trends, monitoring the app's performance, and identifying potential areas for optimization.</li>
     </ul>
 
@@ -51,7 +51,7 @@
 
     <p>If you have any questions, concerns, or feedback regarding this Privacy Policy or our privacy practices, please contact us at transphaapp@gmail.com.</p>
 
-    <p>By using the TKeys app, you acknowledge that you have read and understood this Privacy Policy and agree to the collection, use, and disclosure of your information as described herein.</p>
+    <p>By using our app, you acknowledge that you have read and understood this Privacy Policy and agree to the collection, use, and disclosure of your information as described herein.</p>
   </div>
 </template>
 
