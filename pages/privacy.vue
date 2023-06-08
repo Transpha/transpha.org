@@ -52,6 +52,7 @@
     <p>If you have any questions, concerns, or feedback regarding this Privacy Policy or our privacy practices, please contact us at transphaapp@gmail.com.</p>
 
     <p>By using our app, you acknowledge that you have read and understood this Privacy Policy and agree to the collection, use, and disclosure of your information as described herein.</p>
+    <div class="mt-20 text-center">back to <span class="text-green-700"><a href="/">homepage</a></span></div>
   </div>
 </template>
 
