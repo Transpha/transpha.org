@@ -33,12 +33,12 @@
                             <p class="text-base tracking-widest font-semibold">Download the TKeys mobile app</p>
                             <img class="mx-auto" src="@/static/images/tkeys_mobile.png" />
                             <div class="row row-cols-sm-1 row-cols-sm-2 mt-20 mb-20">
-                                <div class="row">
+                                <div class="row col-6">
                                     <i class="fab fa-apple fa-3x"></i>
                                     <br />
                                     <p>Download on the App Store</p>
                                 </div>
-                                <div class="row">
+                                <div class="row col-6">
                                     <a href="https://play.google.com/store/apps/details?id=com.transpha.T_Keys"><i class="fab fa-android fa-3x"></i></a>
                                     <br />
                                     <p>Get it on Google Play</p>
@@ -57,17 +57,17 @@
                             <img class="mx-auto" src="@/static/images/tkeys_desktop.png" />
 
                             <div class="row row-cols-sm-1 row-cols-sm-3 mt-20 mb-20">
-                                <div class="row">
+                                <div class="row col-4">
                                     <a href="https://transpha.org/downloads/windows/tkeyswindows-v1.exe"><i class="fab fa-windows fa-3x"></i></a>
                                     <br />
                                     <p>Download for Windows</p>
                                 </div>
-                                <div class="row">
+                                <div class="row col-4">
                                     <i class="fab fa-linux fa-3x"></i>
                                     <br />
                                     <p>Download for Linux</p>
                                 </div>
-                                <div class="row">
+                                <div class="row col-4">
                                     <i class="fab fa-apple fa-3x"></i>
                                     <br />
                                     <p>Download for MacOs</p>
