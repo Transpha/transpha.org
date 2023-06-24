@@ -197,34 +197,40 @@
                 <h3 class="text-white  gb text-4xl font-medium text-center">Contact Us</h3>
                 <br />
                 <div class="row">
-                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <div id="form-white-outer-circle-1" class="ml-32 md:ml-20"></div>
+                        <div id="form-white-outer-circle-2" class="ml-96 md:hidden block"></div>
+                    </div>
                     <div class="col-md-4">
                         <form class="container" netlify>
                              <div class="mb-3">
                                 <label for="exampleInputName" class="form-label text-white">Name</label>
-                                <input id="exampleInputName"  type="text" class="form-control">
+                                <input id="exampleInputName"  type="text" class="form-control" required>
                             </div>
 
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label text-white">Email</label>
-                                <input id="exampleInputEmail1"  type="email" class="form-control">
+                                <input id="exampleInputEmail1"  type="email" class="form-control" required>
                             </div>
 
                              <div class="mb-3">
                                 <label for="exampleInputphone" class="form-label text-white">Phone Number</label>
-                                <input id="exampleInputphone"  type="number" class="form-control">
+                                <input id="exampleInputphone"  type="number" class="form-control" required>
                             </div>
 
                             <div class="mb-8">
                                 <label for="exampleInputmessage" class="form-label text-white">Message</label>
                                 <div class="form">
-                                    <textarea id="textAreaExample" class="form-control" rows="4"></textarea>
+                                    <textarea id="textAreaExample" class="form-control" rows="4" required></textarea>
                                 </div>
                             </div>
                             <button type="submit" class="btn bg-light btn-block text-success">Send Message</button>
                         </form>
                     </div>
-                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <div id="form-white-outer-circle-2" class="m-5 md:block hidden"></div>
+                        <div id="form-white-outer-circle-3" class="ml-96 mt-48 md:mt-80 md:ml-60 align-end text-right right-0 flow-right"></div>
+                    </div>
                 </div>
 
             </div>
@@ -280,5 +286,64 @@ export default {}
         background-size: cover;
         min-height: 120vh;
     }
+
+    /* #form-white-outer-circle {
+        background: #385a94;
+
+        background-color: #ffffff;
+        opacity: .1;
+
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        position: relative;
+        box-shadow: 0 0 0 100px white;
+        margin:100px;
+    } */
+
+    #form-white-outer-circle-1 {
+        background: #5CAE69;
+
+        /* background-color: #ffffff; */
+        opacity: .1;
+
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        position: relative;
+        box-shadow: 0 0 0 50px white;
+        /* margin: 100px; */
+        z-index: 999;
+    }
+
+    #form-white-outer-circle-2 {
+        background: #5CAE69;
+
+        /* background-color: #ffffff; */
+        opacity: .1;
+
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        position: relative;
+        box-shadow: 0 0 0 20px white;
+        z-index: 999;
+    }
+
+    #form-white-outer-circle-3 {
+        background: #5CAE69;
+
+        /* background-color: #ffffff; */
+        opacity: .1;
+
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        position: relative;
+        box-shadow: 0 0 0 120px white;
+        z-index: 999;
+    }
+
+    
 
 </style>

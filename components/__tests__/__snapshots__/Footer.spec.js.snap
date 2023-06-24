@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders properly 1`] = `
+"<footer class=\\"text-left md:text-center text-lg-start bg-transparent text-muted p-10\\">
+  <section>
+    <div class=\\"container text-left md:text-center text-md-start mt-5 my-auto mx-auto\\">
+      <div class=\\"row mt-3\\">
+        <div class=\\"col-md-2 col-lg-2 col-xl-1 sm:order-1\\"></div>
+        <div class=\\"col-md-5 col-lg-5 col-xl-6 mx-auto my-auto sm:order-last\\">
+          <h6 class=\\"font-bold mb-4\\">
+            Stay Updated
+          </h6>
+          <p class=\\"mb-2\\">
+            <section>
+              <form action=\\"\\">
+                <div>
+                  <div class=\\"col-auto\\">
+                    <p>
+                      Be the first to know about our products, features
+                    </p>
+                    <p class=\\"pt-1\\">
+                      and other announcements
+                    </p> <br>
+                  </div>
+                  <div class=\\"row d-flex my-auto mb-4\\">
+                    <div class=\\"col-md-5 col-12\\">
+                      <div class=\\"form-outline form-white\\"><input id=\\"form5Example21\\" type=\\"email\\" class=\\"form-control base-green opacity-20 h-12 border-dark rounded-xl text-dark font-bold\\"> <label for=\\"form5Example21\\" class=\\"form-label text-success opacity-25 ml-1 mt-1 text-center my-auto font-semibold\\">Enter email address</label></div>
+                    </div>
+                    <div class=\\"col-auto\\"><button type=\\"submit\\" class=\\"btn btn-lg base-green btn-rounded bg-opacity-25 text-capitalize text-white py-2 px-5 font-semibold rounded-lg\\">
+                        Subscribe
+                      </button></div>
+                  </div>
+                </div>
+              </form>
+            </section>
+          </p>
+        </div>
+        <hr class=\\"sm:hidden h-3 my-5\\">
+        <div class=\\"col-md-2 col-lg-2 col-xl-2 mx-auto my-auto mb-5 sm:order-3\\">
+          <h6 class=\\"font-bold mb-5\\">
+            Company
+          </h6>
+          <p class=\\"mb-3\\"><a href=\\"#!\\" class=\\"text-reset\\">Meet the Team</a></p>
+          <p class=\\"mb-3\\"><a href=\\"#!\\" class=\\"text-reset\\">Donate</a></p>
+        </div>
+        <hr class=\\"sm:hidden h-3 my-5\\">
+        <div class=\\"col-md-3 col-lg-3 col-xl-3 mx-auto my-auto sm:order-2\\">
+          <h6 class=\\"text-uppercase fw-bold mb-4\\"><img src=\\"@/static/images/transpha.png\\"></h6>
+          <p class=\\"mb-3\\"><a href=\\"#!\\" class=\\"text-reset\\">Terms of Service</a></p>
+          <p class=\\"mb-3\\"><a href=\\"/privacy\\" class=\\"text-reset\\">Privacy Policy</a></p>
+          <p class=\\"mb-3\\"><a href=\\"https://twitter.com/transpha\\" class=\\"text-reset\\"><i class=\\"fab fa-twitter\\"></i></a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</footer>"
+`;

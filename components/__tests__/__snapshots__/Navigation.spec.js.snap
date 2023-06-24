@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation renders properly 1`] = `
+"<div>
+  <nav id=\\"nav-top\\" role=\\"navigation\\" class=\\"navbar navbar-expand-lg bg-light navbar-static-top\\">
+    <div class=\\"container\\"><a href=\\"/\\" class=\\"navbar-brand-lg ml-10 mr-30 d-none d-md-block\\"><img src=\\"@/static/images/transpha.png\\" height=\\"2\\" alt=\\"MDB Logo\\" loading=\\"lazy\\"></a> <a href=\\"/\\" class=\\"navbar-brand navbar-brand-sm d-md-none\\"><img src=\\"@/static/images/transpha.png\\" height=\\"5\\" alt=\\"MDB Logo\\" loading=\\"lazy\\" style=\\"margin-top: -1px;\\"></a> <button type=\\"button\\" data-mdb-toggle=\\"collapse\\" data-mdb-target=\\"#navbarButtonsExample\\" aria-controls=\\"navbarButtonsExample\\" aria-expanded=\\"false\\" aria-label=\\"Toggle navigation\\" class=\\"navbar-toggler first-button\\">
+        <div class=\\"animated-icon1\\"><span class=\\"animated-icon-span\\" style=\\"width: 120%;\\"></span> <span class=\\"animated-icon-span\\" style=\\"width: 110%;\\"></span> <span class=\\"animated-icon-span\\"></span></div>
+      </button>
+      <div id=\\"\\" class=\\"collapse navbar-collapse justify-content-center ml-60\\">
+        <ul class=\\"navbar-nav mb-lg-0\\">
+          <li class=\\"nav-item mx-6 my-auto\\">
+            <nuxt-link-stub to=\\"/\\" class=\\"font-medium\\">Home</nuxt-link-stub>
+          </li>
+          <li class=\\"nav-item mx-6 my-auto\\">
+            <nuxt-link-stub to=\\"/#about-us\\" class=\\"font-medium\\">About Us</nuxt-link-stub>
+          </li>
+          <li class=\\"nav-item mx-6 my-auto\\">
+            <nuxt-link-stub to=\\"#products\\" class=\\"font-medium\\">Products</nuxt-link-stub>
+          </li>
+          <li class=\\"nav-item mx-6 my-auto\\"><a href=\\"#contact-us\\" class=\\"font-medium text-white\\"><button class=\\"btn base-green btn-rounded px-8 py-2 text-capitalize text-white\\">Contact Us</button></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id=\\"menu\\" class=\\"invisible content-center my-auto mx-auto align-middle text-center mt-60\\">
+    <p class=\\"mt-10 menu-item-1\\">
+      <nuxt-link-stub to=\\"/\\" class=\\"font-medium text-dark\\">Home</nuxt-link-stub>
+    </p>
+    <p class=\\"mt-10 menu-item-2\\">
+      <nuxt-link-stub to=\\"#about-us\\" class=\\"font-medium text-dark\\">About Us</nuxt-link-stub>
+    </p>
+    <p class=\\"mt-10 menu-item-3\\">
+      <nuxt-link-stub to=\\"#products\\" class=\\"font-medium text-dark\\">Products</nuxt-link-stub>
+    </p>
+    <p class=\\"mt-10 menu-item-4\\"><button class=\\"btn base-green btn-rounded px-8 py-2 text-capitalize\\"><a href=\\"#contact-us\\" class=\\"font-medium text-white\\">Contact Us</a></button></p>
+  </div>
+</div>"
+`;

@@ -97,35 +97,47 @@
         },
         
         mounted() {
-            document.querySelector('.first-button').addEventListener('click', function () {
-                document.querySelector('.animated-icon1').classList.toggle('open');
+            window.addEventListener("DOMContentLoaded", (event) => {
+                document.querySelector('.first-button').addEventListener('click', function () {
+                    document.querySelector('.animated-icon1').classList.toggle('open');
+                })
             });
 
-            document.querySelector('.first-button').addEventListener('click', function () {
-                document.querySelector('#menu').classList.toggle('invisible');
-                document.querySelector('#nav-top').classList.toggle('fixed-top');
+            window.addEventListener("DOMContentLoaded", (event) => {
+                document.querySelector('.first-button').addEventListener('click', function () {
+                    document.querySelector('#menu').classList.toggle('invisible');
+                    document.querySelector('#nav-top').classList.toggle('fixed-top');
+                })
             });
             
             // handles all links in mobile menu manually.
-            document.querySelector('.menu-item-1').addEventListener('click', function(){
-                document.querySelector('.animated-icon1').classList.toggle('open');
-                document.querySelector('#menu').classList.toggle('invisible');
-                document.querySelector('#nav-top').classList.toggle('fixed-top');
+            window.addEventListener("DOMContentLoaded", (event) => {
+                document.querySelector('.menu-item-1').addEventListener('click', function(){
+                    document.querySelector('.animated-icon1').classList.toggle('open');
+                    document.querySelector('#menu').classList.toggle('invisible');
+                    document.querySelector('#nav-top').classList.toggle('fixed-top');
+                })
             });
-            document.querySelector('.menu-item-2').addEventListener('click', function(){
-                document.querySelector('.animated-icon1').classList.toggle('open');
-                document.querySelector('#menu').classList.toggle('invisible');
-                document.querySelector('#nav-top').classList.toggle('fixed-top');
+            window.addEventListener("DOMContentLoaded", (event) => {
+                document.querySelector('.menu-item-2').addEventListener('click', function(){
+                    document.querySelector('.animated-icon1').classList.toggle('open');
+                    document.querySelector('#menu').classList.toggle('invisible');
+                    document.querySelector('#nav-top').classList.toggle('fixed-top');
+                })
             });
-            document.querySelector('.menu-item-3').addEventListener('click', function(){
-                document.querySelector('.animated-icon1').classList.toggle('open');
-                document.querySelector('#menu').classList.toggle('invisible');
-                document.querySelector('#nav-top').classList.toggle('fixed-top');
+            window.addEventListener("DOMContentLoaded", (event) => {
+                document.querySelector('.menu-item-3').addEventListener('click', function(){
+                    document.querySelector('.animated-icon1').classList.toggle('open');
+                    document.querySelector('#menu').classList.toggle('invisible');
+                    document.querySelector('#nav-top').classList.toggle('fixed-top');
+                })
             });
-            document.querySelector('.menu-item-4').addEventListener('click', function(){
-                document.querySelector('.animated-icon1').classList.toggle('open');
-                document.querySelector('#menu').classList.toggle('invisible');
-                document.querySelector('#nav-top').classList.toggle('fixed-top');
+            window.addEventListener("DOMContentLoaded", (event) => {
+                document.querySelector('.menu-item-4').addEventListener('click', function(){
+                    document.querySelector('.animated-icon1').classList.toggle('open');
+                    document.querySelector('#menu').classList.toggle('invisible');
+                    document.querySelector('#nav-top').classList.toggle('fixed-top');
+                })
             });
             
         }
