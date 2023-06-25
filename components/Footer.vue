@@ -95,7 +95,7 @@
                         <a href="/privacy" class="text-reset">Privacy Policy</a>
                     </p>
                     <p class="mb-3">
-                        <a href="https://twitter.com/transpha" class="text-reset"><i class="fab fa-twitter"></i></a>
+                        <a href="https://twitter.com/transpha" class="text-reset" target="_blank"><i class="fab fa-twitter"></i></a>
                     </p>
                 </div>
             </div>

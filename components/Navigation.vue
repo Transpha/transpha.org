@@ -50,11 +50,11 @@
                             <!-- <a href="#about-us" class="font-medium lg-link">About Us</a> -->
                         </li>
                         <li class="nav-item mx-6 my-auto">
-                            <nuxt-link to="#products" class="font-medium">Products</nuxt-link>
+                            <nuxt-link to="/#products" class="font-medium">Products</nuxt-link>
                             <!-- <a href="#products" class="font-medium lg-link">Products</a> -->
                         </li>
                         <li class="nav-item mx-6 my-auto">
-                            <a href="#contact-us" class="font-medium text-white"><button class="btn base-green btn-rounded px-8 py-2 text-capitalize text-white">Contact Us</button></a>
+                            <a href="/#contact-us" class="font-medium text-white"><button class="btn base-green btn-rounded px-8 py-2 text-capitalize text-white">Contact Us</button></a>
                         </li>
                         
                     </ul>
@@ -72,15 +72,15 @@
                 <!-- <a href="/" class="menu-item font-medium">Home</a> -->
             </p>
             <p class="mt-10 menu-item-2">
-                <nuxt-link to="#about-us" class="font-medium text-dark">About Us</nuxt-link>
+                <nuxt-link to="/#about-us" class="font-medium text-dark">About Us</nuxt-link>
                 <!-- <a href="#about-us" class="menu-item font-medium">About Us</a> -->
             </p>
             <p class="mt-10 menu-item-3">
-                <nuxt-link to="#products" class="font-medium text-dark">Products</nuxt-link>
+                <nuxt-link to="/#products" class="font-medium text-dark">Products</nuxt-link>
                 <!-- <a href="#products" class="menu-item font-medium">Products</a> -->
             </p>
             <p class="mt-10 menu-item-4">
-                <button class="btn base-green btn-rounded px-8 py-2 text-capitalize"><a href="#contact-us" class="font-medium text-white">Contact Us</a></button>
+                <button class="btn base-green btn-rounded px-8 py-2 text-capitalize"><a href="/#contact-us" class="font-medium text-white">Contact Us</a></button>
             </p>
         </div>
 

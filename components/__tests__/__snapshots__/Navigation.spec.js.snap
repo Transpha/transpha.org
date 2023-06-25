@@ -15,9 +15,9 @@ exports[`Navigation renders properly 1`] = `
             <nuxt-link-stub to=\\"/#about-us\\" class=\\"font-medium\\">About Us</nuxt-link-stub>
           </li>
           <li class=\\"nav-item mx-6 my-auto\\">
-            <nuxt-link-stub to=\\"#products\\" class=\\"font-medium\\">Products</nuxt-link-stub>
+            <nuxt-link-stub to=\\"/#products\\" class=\\"font-medium\\">Products</nuxt-link-stub>
           </li>
-          <li class=\\"nav-item mx-6 my-auto\\"><a href=\\"#contact-us\\" class=\\"font-medium text-white\\"><button class=\\"btn base-green btn-rounded px-8 py-2 text-capitalize text-white\\">Contact Us</button></a></li>
+          <li class=\\"nav-item mx-6 my-auto\\"><a href=\\"/#contact-us\\" class=\\"font-medium text-white\\"><button class=\\"btn base-green btn-rounded px-8 py-2 text-capitalize text-white\\">Contact Us</button></a></li>
         </ul>
       </div>
     </div>
@@ -27,12 +27,12 @@ exports[`Navigation renders properly 1`] = `
       <nuxt-link-stub to=\\"/\\" class=\\"font-medium text-dark\\">Home</nuxt-link-stub>
     </p>
     <p class=\\"mt-10 menu-item-2\\">
-      <nuxt-link-stub to=\\"#about-us\\" class=\\"font-medium text-dark\\">About Us</nuxt-link-stub>
+      <nuxt-link-stub to=\\"/#about-us\\" class=\\"font-medium text-dark\\">About Us</nuxt-link-stub>
     </p>
     <p class=\\"mt-10 menu-item-3\\">
-      <nuxt-link-stub to=\\"#products\\" class=\\"font-medium text-dark\\">Products</nuxt-link-stub>
+      <nuxt-link-stub to=\\"/#products\\" class=\\"font-medium text-dark\\">Products</nuxt-link-stub>
     </p>
-    <p class=\\"mt-10 menu-item-4\\"><button class=\\"btn base-green btn-rounded px-8 py-2 text-capitalize\\"><a href=\\"#contact-us\\" class=\\"font-medium text-white\\">Contact Us</a></button></p>
+    <p class=\\"mt-10 menu-item-4\\"><button class=\\"btn base-green btn-rounded px-8 py-2 text-capitalize\\"><a href=\\"/#contact-us\\" class=\\"font-medium text-white\\">Contact Us</a></button></p>
   </div>
 </div>"
 `;

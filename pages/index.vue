@@ -194,14 +194,14 @@
                 </div>
             </div>
             <div id="contact-us" class="bg-custom-green py-24">
-                <h3 class="text-white  gb text-4xl font-medium text-center">Contact Us</h3>
-                <br />
                 <div class="row">
                     <div class="col-md-4">
-                        <div id="form-white-outer-circle-1" class="ml-32 md:ml-20"></div>
-                        <div id="form-white-outer-circle-2" class="ml-96 md:hidden block"></div>
+                        <div id="form-white-outer-circle-1" class="ml-16 md:ml-20 float-right"></div>
+                        <div id="form-white-outer-circle-2" class="ml-32 md:hidden block"></div>
                     </div>
                     <div class="col-md-4">
+                        <h3 class="text-white  gb text-4xl font-medium text-center">Contact Us</h3>
+                        <br />
                         <form class="container" netlify>
                              <div class="mb-3">
                                 <label for="exampleInputName" class="form-label text-white">Name</label>
@@ -229,7 +229,7 @@
                     </div>
                     <div class="col-md-4">
                         <div id="form-white-outer-circle-2" class="m-5 md:block hidden"></div>
-                        <div id="form-white-outer-circle-3" class="ml-96 mt-48 md:mt-80 md:ml-60 align-end text-right right-0 flow-right"></div>
+                        <div id="form-white-outer-circle-3" class="mt-48 md:mt-80 float-right md:float-left md:block hidden"></div>
                     </div>
                 </div>
 
