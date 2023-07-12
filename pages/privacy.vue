@@ -57,9 +57,21 @@
 </template>
 
 <script>
-export default {
-  name: 'PrivacyPolicy',
-};
+    export default {
+        name: 'PrivacyPolicy',
+        head() {
+            return {
+                title: "Transpha Privacy Policy",
+                meta: [
+                {
+                    hid: 'welcome to the privacy policy of transpha',
+                    name: 'transpha privacy page',
+                    content: 'Transpha privacy policy'
+                }
+                ]
+            }
+        }
+  };
 </script>
 
 <style scoped>

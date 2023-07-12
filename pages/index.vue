@@ -35,7 +35,7 @@
                     </div>
                     <div class="col-md-6 col-xl-6 mx-auto sm:mb-20 mb-10">
                         <div class="bg-img-main">
-                            <img class="mx-auto" src="@/static/images/transpha_main.png" />
+                            <img class="mx-auto" src="@/static/images/transpha_main.png" alt="A phone describing how transpha t-keys mobile works" />
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                     </p> 
                 </div>
 
-                <img src="@/static/images/transpha_about.png"  class="mt-10"/>
+                <img src="@/static/images/transpha_about.png"  class="mt-10" alt="A group of people coworking representing how well transpha apps cowork and help you"/>
                 <div id="our-story" class="row">
                     <div class="col-md-3"></div>
                     <div class=" col-md-6 my-auto mx-auto text-center">
@@ -97,7 +97,7 @@
             <div id="why-us">
                 <div class="row mb-20">
                     <div class="col-md-5 col-xl-5 mx-auto my-auto mb-10">
-                        <img src="@/static/images/transpha_why_us.png" />
+                        <img src="@/static/images/transpha_why_us.png" alt="A photo to display why you can use transpha and it products" />
                     </div>
                     <div class="col-md-1 col-xl-1"></div>
                     <div class="col-md-6 col-xl-6 mx-auto mb-10 mt-5">
@@ -147,7 +147,7 @@
                             </div>
                             <div class="col-md-2 md:order-2"></div>
                             <div class="col-md-5 md:order-1 mt-10">
-                                <img src="@/static/images/transpha_products_1.png" />
+                                <img src="@/static/images/transpha_products_1.png" alt="image showing the first product by transpha: tkeys"/>
                             </div>
                         </div>
                     </div>
@@ -243,7 +243,20 @@
 </template>
 
 <script>
-export default {}
+    export default {
+        head() {
+            return {
+                title: "Transpha Home",
+                meta: [
+                {
+                    hid: 'welcome to the home page of transpha',
+                    name: 'transpha home page',
+                    content: 'Transpha digital products serves mobile and desktop globally and universally'
+                }
+                ]
+            }
+        }
+    }
 </script>
 
 <style>

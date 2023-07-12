@@ -31,7 +31,7 @@
                         <div class="">
                             <br />
                             <p class="text-base tracking-widest font-semibold">Download the TKeys mobile app</p>
-                            <img class="mx-auto" src="@/static/images/tkeys_mobile.png" />
+                            <img class="mx-auto" src="@/static/images/tkeys_mobile.png" alt="T-keys mobile download image"/>
                             <div class="row row-cols-sm-1 row-cols-sm-2 mt-20 mb-20">
                                 <div class="row col-6">
                                     <i class="fab fa-apple fa-3x"></i>
@@ -54,7 +54,7 @@
                             <br />
                             <br />
                             <p class="text-base tracking-widest font-semibold">Download the TKeys desktop app</p>
-                            <img class="mx-auto" src="@/static/images/tkeys_desktop.png" />
+                            <img class="mx-auto" src="@/static/images/tkeys_desktop.png" alt="T-keys desktop download image"/>
 
                             <div class="row row-cols-sm-1 row-cols-sm-3 mt-20 mb-20">
                                 <div class="row col-4">
@@ -88,7 +88,20 @@
 </template>
 
 <script>
-export default {}
+export default {
+    head() {
+        return {
+            title: "Tkey download page",
+            meta: [
+            {
+                hid: 'welcome to tkeys download page',
+                name: 'Download Tkeys',
+                content: 'Download Tkeys for mobile and desktop and transfer files digitally and seamlessly'
+            }
+            ]
+        }
+    }
+}
 </script>
 
 <style>

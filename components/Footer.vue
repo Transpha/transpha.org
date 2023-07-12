@@ -13,9 +13,9 @@
 
                 <div class="col-md-5 col-lg-5 col-xl-6 mx-auto my-auto sm:order-last">
                     <!-- Links -->
-                    <h6 class="font-bold mb-4">
+                    <h5 class="font-bold mb-4">
                         Stay Updated
-                    </h6>
+                    </h5>
                     <p class="mb-2">
                         <section class="">
                             <form action="">
@@ -71,9 +71,9 @@
                 <!-- Grid column -->
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto my-auto mb-5 sm:order-3">
                     <!-- Links -->
-                    <h6 class="font-bold mb-5">
+                    <h5 class="font-bold mb-5">
                         Company
-                    </h6>
+                    </h5>
                     <p class="mb-3">
                         <a href="#!" class="text-reset">Meet the Team</a>
                     </p>
@@ -85,9 +85,9 @@
                 <hr class="sm:hidden h-3 my-5"/>
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto my-auto sm:order-2">
                     <!-- Content -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        <img src="@/static/images/transpha.png" />
-                    </h6>
+                    <img src="@/static/images/transpha.png" alt="footer transpha logo"/>
+                    <br />
+
                     <p class="mb-3">
                         <a href="#!" class="text-reset">Terms of Service</a>
                     </p>

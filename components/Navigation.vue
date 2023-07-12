@@ -10,7 +10,7 @@
                 <img
                     src="@/static/images/transpha.png"
                     height="2"
-                    alt="MDB Logo"
+                    alt="Nav Tranpha Logo Large"
                     loading="lazy"
                 />
 
@@ -19,7 +19,7 @@
                 <img
                     src="@/static/images/transpha.png"
                     height="5"
-                    alt="MDB Logo"
+                    alt="Nav Transpha Logo Small"
                     loading="lazy"
                     style="margin-top: -1px;"
                 />
