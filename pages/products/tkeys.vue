@@ -58,7 +58,7 @@
 
                             <div class="row row-cols-sm-1 row-cols-sm-3 mt-20 mb-20">
                                 <div class="row col-4">
-                                    <a href="https://transpha.org/downloads/windows/tkeyswindows-v1.exe"><i class="fab fa-windows fa-3x"></i></a>
+                                    <a href="https://files.transpha.org/windows/tkeyswindows-v1.exe"><i class="fab fa-windows fa-3x"></i></a>
                                     <br />
                                     <p>Download for Windows</p>
                                 </div>
